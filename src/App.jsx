@@ -66,7 +66,7 @@ export default function App() {
 function Start({ onPick }) {
   return (
     <main className="start">
-      <h1>TrackMyFood</h1>
+      <img className="logo" src="./icons/logo.png" alt="TrackMyFood – Track Food & Health" />
       <p className="muted">Wer bist du – oder für wen trägst du ein?</p>
       <button className="big-btn tina" onClick={() => onPick('tina')}>Tina</button>
       <button className="big-btn pascal" onClick={() => onPick('pascal')}>Pascal</button>
